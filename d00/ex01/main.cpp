@@ -151,7 +151,7 @@ void search_contact(Contact contacts[], int n)
 		std::cin.ignore();
 		std::cout << "INVALID INDEX!" << std::endl;
 	}
-	if (index - 1 < n)
+	if (index - 1 < n && index >= 1)
 	{
 		contacts[index - 1].printInfo();
 	}
